@@ -2,9 +2,9 @@
 
 namespace Maize\Builder;
 
+use Maize\Builder\Commands\BuilderCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Maize\Builder\Commands\BuilderCommand;
 
 class BuilderServiceProvider extends PackageServiceProvider
 {
