@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Maize\Builder\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BuilderCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-query-builder';
 
     public $description = 'My command';
 
