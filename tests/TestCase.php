@@ -1,10 +1,15 @@
 <?php
 
-namespace Maize\Builder\Tests;
+namespace Maize\QueryBuilder\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+<<<<<<< Updated upstream
 use Maize\Builder\BuilderServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+=======
+use Orchestra\Testbench\TestCase as Orchestra;
+use Maize\QueryBuilder\BuilderServiceProvider;
+>>>>>>> Stashed changes
 
 class TestCase extends Orchestra
 {
@@ -13,7 +18,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Maize\\Builder\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Maize\\QueryBuilder\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

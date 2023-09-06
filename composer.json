@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Maize\\Builder\\": "src/",
-            "Maize\\Builder\\Database\\Factories\\": "database/factories/"
+            "Maize\\QueryBuilder\\": "src/",
+            "Maize\\QueryBuilder\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Maize\\Builder\\Tests\\": "tests/",
+            "Maize\\QueryBuilder\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Maize\\Builder\\BuilderServiceProvider"
+                "Maize\\QueryBuilder\\BuilderServiceProvider"
             ],
             "aliases": {
-                "Builder": "Maize\\Builder\\Facades\\Builder"
+                "Builder": "Maize\\QueryBuilder\\Facades\\Builder"
             }
         }
     },

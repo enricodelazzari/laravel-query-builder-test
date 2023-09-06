@@ -52,7 +52,7 @@ php artisan vendor:publish --tag="laravel-query-builder-views"
 ## Usage
 
 ```php
-$builder = new Maize\Builder();
+$builder = new Maize\QueryBuilder();
 echo $builder->echoPhrase('Hello, Maize!');
 ```
 

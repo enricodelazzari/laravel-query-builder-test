@@ -1,6 +1,6 @@
 <?php
 
-namespace Maize\Builder\Commands;
+namespace Maize\QueryBuilder\Commands;
 
 use Illuminate\Console\Command;
 

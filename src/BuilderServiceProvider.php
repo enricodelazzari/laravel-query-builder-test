@@ -1,10 +1,14 @@
 <?php
 
-namespace Maize\Builder;
+namespace Maize\QueryBuilder;
 
 use Maize\Builder\Commands\BuilderCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+<<<<<<< Updated upstream
+=======
+use Maize\QueryBuilder\Commands\BuilderCommand;
+>>>>>>> Stashed changes
 
 class BuilderServiceProvider extends PackageServiceProvider
 {

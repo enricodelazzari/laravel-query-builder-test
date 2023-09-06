@@ -1,6 +1,6 @@
 <?php
 
-namespace Maize\Builder\Database\Factories;
+namespace Maize\QueryBuilder\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
